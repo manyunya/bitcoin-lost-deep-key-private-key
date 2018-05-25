@@ -9,6 +9,7 @@ The core concepts of how the blockchain works and operates remains uneffected by
 #	As an example of private key generation and experimentation within the bitcoin network some private keys start with #L5..c4 or Ky..k1 < as an example 52 characters alpha-numeric no special characters, decoded they flip around to an address #starting with 1 as part of the end decoded process, similar to how paper wallets are printed exported and imported there is #nothing protecting a paper wallet if it is a known similar to how a private key bears no security or protection from import to #a wallet whether it is classic, core or a variant.
 #	I estimate on a modern system this deep key scan for a small set of keys ranging in a few million private keys could #take anywhere from 3 to 4 months to generate and scan, furthermore I have written a crude script to try newly generated private #keys using “crunch” password generator to generate 52 character private keys starting with L or K.
 
+this problem could also effect any "ALT" that uses the same model for private key to address encoding-decoding
 
 # https://bitcoinelectrum.com/importing-your-private-keys-into-electrum/
 
