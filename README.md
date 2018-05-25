@@ -1,7 +1,7 @@
 # bitcoin-lost-deep-key-private-key
 #lost bitcoin , deep key private key
 
-
+The core concepts of how the blockchain works and operates remains uneffected by this vulernability in how bitcoin works,
 
 #Github,
 
