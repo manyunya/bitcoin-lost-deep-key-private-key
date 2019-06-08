@@ -15,21 +15,13 @@ flag in any wallet whether it is classic, core or a variant. I have attempted to
 <br>
 generation program based on JTR and crunch (https://sourceforge.net/projects/crunch-wordlist/) to generate a range of base 
 58 values based on bitcoin private keys and under further modification it is possible to continue to customize this form of 
-<br>
 private key deep scan and execute it as a basic attack vector. The banking system should be notified not to get on-board 
-<br>
 with the Bitcoin network, even though originally the bitcoin network might have represented a form of Independence from 
-<br>
 banking institutions to by pass terrible fees from the banks and other dilemmas caused by most banks having full control.
-<br>
 As an example of private key generation and experimentation within the bitcoin network some private keys start with #L5..c4 
-<br>
 or Ky..k1 < as an example 52 characters alpha-numeric no special characters, decoded they flip around to an address starting 
-<br>
 with 1 as part of the end decoded process, similar to how paper wallets are printed exported and imported there is #nothing 
-<br>
 protecting a paper wallet if it is a known similar to how a private key bears no security or protection from import to #a 
-<br>
 wallet whether it is classic, core or a variant.
 <br>
 <br>
