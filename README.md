@@ -6,13 +6,9 @@ The core concepts of how the blockchain works and operates remains uneffected by
 <br>
 
 It might be possible to scan bitcoin private keys sitting on the network due to a vulnerability in the way bitcoin was 
-<br>
 designed since there is nothing really safeguarding the internal framework of the bitcoin wallet either in classic, core or 
-<br>
 other variants. Even by encrypting your wallet nothing prevents the importation of a private key by changing a configuration 
-<br>
 flag in any wallet whether it is classic, core or a variant. I have attempted to test a basic attack vector using a password 
-<br>
 generation program based on JTR and crunch (https://sourceforge.net/projects/crunch-wordlist/) to generate a range of base 
 58 values based on bitcoin private keys and under further modification it is possible to continue to customize this form of 
 private key deep scan and execute it as a basic attack vector. The banking system should be notified not to get on-board 
