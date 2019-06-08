@@ -24,14 +24,11 @@ wallet whether it is classic, core or a variant.
 <br>
 <br>
 
-I estimate on a modern system this deep key scan for a small set of keys ranging in a few million private keys could #take 
-<br>
+I estimate on a modern system this deep key scan for a small set of keys ranging in a few million private keys could take 
 anywhere from 3 to 4 months to generate and scan, furthermore I have written a crude script to try newly generated private 
-<br>
 keys using “crunch” password generator to generate 52 character private keys starting with L or K.
-<br>
 this problem could also effect any "ALT" that uses the same model for private key to address encoding-decoding
-<br>
+
 
 # https://bitcoinelectrum.com/importing-your-private-keys-into-electrum/
 <br>
