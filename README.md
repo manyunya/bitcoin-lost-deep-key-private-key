@@ -16,9 +16,8 @@ with the Bitcoin network, even though originally the bitcoin network might have 
 banking institutions to by pass terrible fees from the banks and other dilemmas caused by most banks having full control.
 As an example of private key generation and experimentation within the bitcoin network some private keys start with #L5..c4 
 or Ky..k1 < as an example 52 characters alpha-numeric no special characters, decoded they flip around to an address starting 
-with 1 as part of the end decoded process, similar to how paper wallets are printed exported and imported there is #nothing 
-protecting a paper wallet if it is a known similar to how a private key bears no security or protection from import to #a 
-wallet whether it is classic, core or a variant.
+with 1 as part of the end decoded process, similar to how paper wallets are printed exported and imported there is nothing 
+protecting a paper wallet with a QR code if it is a known similar to how a private key bears no security or protection from import to a bitcoin wallet whether it is classic, core or a variant.
 <br>
 <br>
 <br>
