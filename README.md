@@ -1,9 +1,9 @@
 # bitcoin-lost-deep-key-private-key
-#lost bitcoin , deep key private key
+# lost bitcoin , deep key private key
 
 The core concepts of how the blockchain works and operates remains uneffected by this vulernability in how bitcoin works,
 
-#Github,
+<br>
 
 It might be possible to scan bitcoin private keys sitting on the network due to a vulnerability in the way bitcoin was 
 <br>
@@ -32,8 +32,6 @@ with 1 as part of the end decoded process, similar to how paper wallets are prin
 protecting a paper wallet if it is a known similar to how a private key bears no security or protection from import to #a 
 <br>
 wallet whether it is classic, core or a variant.
-
-
 <br>
 <br>
 <br>
