@@ -29,7 +29,7 @@ anywhere from 3 to 4 months to generate and scan, furthermore I have written a c
 keys using “crunch” password generator to generate 52 character private keys starting with L or K.
 this problem could also effect any "ALT" that uses the same model for private key to address encoding-decoding
 
-
+<br>
 # https://bitcoinelectrum.com/importing-your-private-keys-into-electrum/
 <br>
 
