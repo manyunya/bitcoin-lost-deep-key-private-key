@@ -84,22 +84,15 @@ tail -n +2 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmK
 
 
 #as a crude example using java in a non working model
-<br>
+
 
 
 /* 
-<br>
-* To change this license header, choose License Headers in Project Properties. 
-<br>
-
-* To change this template file, choose Tools | Templates 
-<br>
-
-* and open the template in the editor. 
-<br>
-
+  * To change this license header, choose License Headers in Project Properties. 
+  * To change this template file, choose Tools | Templates 
+  * and open the template in the editor. 
 */ 
-<br>
+
 
 //package deepkeysearch; 
 <br>
