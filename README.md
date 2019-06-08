@@ -14,7 +14,6 @@ other variants. Even by encrypting your wallet nothing prevents the importation 
 flag in any wallet whether it is classic, core or a variant. I have attempted to test a basic attack vector using a password 
 <br>
 generation program based on JTR and crunch (https://sourceforge.net/projects/crunch-wordlist/) to generate a range of base 
-<br>
 58 values based on bitcoin private keys and under further modification it is possible to continue to customize this form of 
 <br>
 private key deep scan and execute it as a basic attack vector. The banking system should be notified not to get on-board 
