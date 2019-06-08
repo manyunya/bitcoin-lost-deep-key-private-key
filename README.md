@@ -45,39 +45,40 @@ and electrum has to have a config flag flipped in order to import private keys, 
 you have to import a pre-existing working private key into electrum which is used here.
 <br>
 
+```
 #!/bin/sh 
-<br>
+
 
 head -n1 L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt > 
-<br>
+
 
 newfile.txt 
-<br>
+
 
 cat newfile.txt 
-<br>
+
 
 perl -p -i -e 's/\R//g;' newfile.txt 
-<br>
+
 
 cat newfile.txt 
-<br>
+
 
 cat newfile.txt | electrum importprivkey - 
-<br>
+
 
 tail -n +2 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt" > 
-<br>
+
 
 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt.tmp" && mv 
-<br>
+
 
 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt.tmp" 
-<br>
+
 
 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt" 
 
-<br>
+
 
 
 
@@ -95,116 +96,116 @@ tail -n +2 "L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-L1nQuHYTwKuzPmK
 
 
 //package deepkeysearch; 
-<br>
+
 
 import java.io.BufferedReader; 
-<br>
+
 
 import java.io.InputStreamReader; 
-<br>
+
 
 public class DeepKeySearch { 
-<br>
+
 
     public static void main(String[] args) { 
-<br>
+
 
         DeepKeySearch obj = new DeepKeySearch(); 
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+
     System.out.println("Place in working directory of wordlists to process"); 
-<br>
+
 
     System.out.println("Change text file rotation after L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9FrQ5X-
-<br>
+
   
     L1nQuHYTwKuzPmKJCfLhEgpCGsYjjmvCecnc7XNQWvBZLV9GI50f.txt"); 
-<br>
-<br>
-<br>
-<br>
+
+
+
+
 
         String command = "./deepkey.sh"; 
-<br>
-<br>
-<br>
+
+
+
 
         String output = obj.executeCommand(command); 
-<br>
-<br>
-<br>
+
+
+
 
         System.out.println(output); 
-<br>
+
 
     } 
-<br>
+
 
     private String executeCommand(String command) { 
-<br>
+
 
         StringBuffer output = new StringBuffer(); 
-<br>
+
 
         int infinite = 99; 
-<br>
+
 
         while (infinite != 100) { 
-<br>
-<br>
-<br>
+
+
+
 
         Process p; 
-<br>
+
       try { 
-<br>
+
             p = Runtime.getRuntime().exec(command); 
             p.waitFor(); 
             BufferedReader reader = 
                             new BufferedReader(new InputStreamReader(p.getInputStream())); 
-<br>
+
 
                         String line = ""; 
-<br>
+
             while ((line = reader.readLine())!= null) { 
-<br>
+
                 output.append(line + "\n"); 
-<br>
+
 
         System.out.println(output); 
-<br>
+
 
             } 
-<br>
+
 
         } catch (Exception e) { 
-<br>
+
             e.printStackTrace(); 
-<br>
+
         } 
-<br>
+
 
         infinite = 1; 
-<br>
+
 
         } 
-<br>
+
 
         return output.toString(); 
-<br>
+
 
         } 
-<br>
+
 
 
 
     } 
 
 
-
+```
 
 
 
